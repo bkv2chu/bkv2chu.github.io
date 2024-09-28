@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Victor Chu</title>
+
+  <meta name="author" content="Victor Chu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+</head>
+
+<body background = "images/glassbackinv.jpg" link = "blue" vlink = "red">
+  <table
+    style="width:100%;max-width:1080px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:1.5%;width:68%;vertical-align:middle">
+                  <p style="text-align:left">
+                    <img src="data/name.svg" alt="Victor Chu" />
+                  </p>
+
+                  <p> <b>About:</b>  I'm a MSE student in the <a href="https://light.princeton.edu/">Princeton
+                      Computational Imaging
+                      Lab</a>, advised by Professor <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>. I
+                    received my bachelor of arts in computer science from <a
+                      href="https://www.cs.princeton.edu/" title="POO">Princeton University</a>.
+                  <!-- begone bot -->
+                  <p><b>Contact:</b> &nbsp <tt>  vhchu[at]princeton[dot]edu  </tt>
+                  </p>
+
+                  <p>
+                    <b>Professional:</b> &nbsp
+                    <a href="cv.html">CV</a> &nbsp/&nbsp
+                    <a href="https://github.com/bkv2chu">Github</a> &nbsp/&nbsp
+                    <a href="https://www.linkedin.com/in/victor-chu-76405b1b5/">LinkedIn</a>
+                  </p>
+                </td>
+
+                <!-- PROFILE -->
+                <td onmouseout="profile_stop()" onmouseover="profile_start()"
+                  style="padding:2.5%;width:25%;vertical-align:top">
+                  <div class="one">
+                    <div class="two" id='profile_one'>
+                      <img src='images/yotsubanew.jpg' width="100%">
+                    </div>
+                    <div class="two" id='profile_two'>
+                      <img src='images/reallycoolphoto.jpg' width="100%">
+                    </div>
+                  </div>
+                  <script type="text/javascript">
+                    function profile_start() {
+                      document.getElementById('profile_two').style.opacity = "0";
+                    }
+
+                    function profile_stop() {
+                      document.getElementById('profile_two').style.opacity = "1";
+                    }
+                    profile_stop()
+                  </script>
+                </td>
+
+
+                <!-- /PROFILE -->
+
+
+
+                <!-- <td style="padding:2.5%;width:25%;max-width:25%">
+                  <a href="images/profile.png"><img style="width:100%;max-width:100%" alt="profile photo"
+                      src="images/profile.png" class="hoverZoomLink"></a>
+                </td> -->
+
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:top">
+                  <heading><b>Research:</b></heading>
+                  <p>
+                    <!-- I'm interested in  and that look at the
+                    whole imaging pipeline, from signal collection to scene reconstruction. MRIs, modulated light
+                    sources, or mobile phones; I love working with real devices and real data. -->
+
+                    I am broadly interested about <bb>computer vision</bb> and  <bb>graphics</bb>, with an emphasis on computational imaging and displays. 
+                    I get most excited when investigating the entire imaging/display pipeline, involving both optics + image signal processing as well as machine learning + optimization. 
+                    In particular, I have constructed holographic displays and built mixed reality experiences.
+                  </p>
+                  
+                  
+                  <hr>
+                  <!-- <p style="margin-top:0.5em;margin-bottom:0em;">
+                    <code style="font-size: 90%;">"If you try and take a cat apart to see how it works, the first thing you have on your hands is a non-working cat."
+                    <br> - Douglas Adams</code>
+                  </p> -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <!-- BEGIN PAPERS -->
+
+              
+
+
+               <!-- PAPER -->
+               <tr onmouseout="singleshot_stop()" onmouseover="singleshot_start()">
+                <td class="left-column">
+                  <a href="https://light.princeton.edu/publication/2in1-camera/">
+                    <div class="one">
+                      <div class="two" id='singleshot'>
+                        <img src='images/singleshotpenguin.png' class="responsive-image" width="100%">
+                      </div>
+                      <img src='images/singleshotparrot.png' class="responsive-image" width="100%">
+                    </div>
+                    <script type="text/javascript">
+                      function singleshot_start() {
+                        document.getElementById('singleshot').style.opacity = "1";
+                      }
+
+                      function singleshot_stop() {
+                        document.getElementById('singleshot').style.opacity = "0";
+                      }
+                      singleshot_stop()
+                    </script>
+                  </a>
+                </td>
+                <td class="right-column">
+                  <a href="https://dataspace.princeton.edu/handle/88435/dsp01gb19f910t">
+                    <papertitle>
+                      <z>Full-Color Single-Shot Holography</z>
+                    </papertitle>
+                  </a>
+                  <br>
+                  <ilya>Victor Chu</ilya>,
+                  <a href="https://www.cs.unc.edu/~cpk/">Praneeth Chakravarthula</a>,
+                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                  <br>
+                  <em>Undergraduate Senior Thesis</em>, 2023 (Outstanding Computer Science Senior Thesis Award)
+                  <p class="desktop-only">
+                    In this work, we develop a novel method for full-color single-shot holography where we
+                    can reconstruct full-color holograms with only a single phase pattern to be displayed on a spatial light modulator. Leveraging known light
+                    propagation physics, we propose an optimization algorithm for creating such phase patterns
+                    for a variety of images. We then validate our results in simulation and provide preliminary
+                    experimental validation.
+                  </p>
+                </td>
+              </tr>
+              
+
+              
+
+              <table
+              style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:100%;vertical-align:top">
+
+                      <hr>
+                      <heading><b>Misc:</b></heading>
+                      <p>
+                        I play table tennis!<br>
+                        I play <a href="https://www.youtube.com/watch?feature=shared&t=3410&v=b2MyCJyoJS4">music</a> with my friends!<br>
+                        I play too much pickleball!<br>
+                        I play Fortnite!<br>
+                      </p>
+                    <!-- <p style="margin-top:0.5em;margin-bottom:0em;">
+                      <code style="font-size: 90%;">"If you try and take a cat apart to see how it works, the first thing you have on your hands is a non-working cat."
+                      <br> - Douglas Adams</code>
+                    </p> -->
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+              
+            <table
+              style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+
+
+
+                <tr>
+                  <td style="padding:0px">
+                    <br>
+                    <p style="text-align:right;font-size:7pt;color: gray;">
+                      Website template stolen from <a href="https://ilyac.info/" , style="font-size: 7pt">
+                        <z>Ilya
+                          Chugunov</z>
+                      </a>.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            
+        </td>
+      </tr>
+  </table>
+</body>
+
+</html>

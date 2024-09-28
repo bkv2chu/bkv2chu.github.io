@@ -1,0 +1,205 @@
+a, a:link, a:visited {
+  color: #fee0c1; /* Brighter color for links ilya default: #ffcf8f */ 
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #7a6958; /* Slightly darker color on hover for contrast ilya default#8c6826 */
+  text-decoration: underline;
+}
+
+
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #f2f2f2; /* Light grey text for readability on dark backgrounds */
+}
+
+y {
+  color: #fee0c1;
+}
+
+ilya {
+  color: #39FF14;
+  font-weight: 950;
+}
+
+x {
+  color: #ff7f50;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #ff7f50;  /* ilya default: ff7f50*/
+}
+
+x:hover {
+  color: #8c6826; /* Slightly darker color on hover for contrast */
+  text-decoration: none;
+}
+
+z {
+  color: #ae7ff5;
+}
+
+bb {
+  color: #fee0c1;
+}
+
+z:hover {
+  color: #6e529a; /* Slightly darker color on hover for contrast */
+  text-decoration: none;
+}
+
+b {
+  color: #ae7ff5; /* ilya default: ff7f50*/
+  text-decoration: underline;
+  text-decoration-color: #BFC0BF;
+}
+
+strong {
+  color: #ff7f50;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+heading {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 550;
+  
+}
+
+papertitle {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ae7ff5;
+  text-decoration: underline;
+  text-decoration-color: #BFC0BF;
+}
+
+name {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 39px;
+  font-weight: 500;
+}
+
+.one {
+  position: relative;
+}
+
+.two {
+  position: absolute;
+  transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #424242;
+}
+
+body {
+  background-color: #000000;
+}
+
+.indent {
+  text-indent: 20px;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
+.left-column {
+  padding: 2.5%;
+  width: 25%;
+  vertical-align: middle;
+}
+
+.right-column {
+  padding: 20px;
+  width: 75%;
+  vertical-align: middle;
+}
+
+/* Adjustments for mobile devices */
+@media (pointer:none), (pointer:coarse) {
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #e0e0e0; /* Ensuring text is light on dark backgrounds */
+  }
+
+  strong {
+    color: #b21f1f;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+  heading {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+  }
+
+  papertitle {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #ff7f50;
+  }
+
+  name {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .paper-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .mobile-only {
+    display: table-row;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .left-column {
+    width: 40%;
+    vertical-align: middle;
+  }
+  
+  .right-column {
+    padding-left: 2%;
+    width: 60%;
+    vertical-align: middle;
+  }
+
+
+}
