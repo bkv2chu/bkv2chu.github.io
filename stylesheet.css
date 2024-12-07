@@ -47,7 +47,8 @@ z {
 }
 
 bb {
-  color: #fee0c1;
+  /* color: #fee0c1; */
+  font-weight: bold;
 }
 
 z:hover {
