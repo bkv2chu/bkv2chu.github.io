@@ -1,10 +1,10 @@
 a, a:link, a:visited {
-  color: #fee0c1; /* Brighter color for links ilya default: #ffcf8f */ 
+  color: #bbbdfa; /* Brighter color for links ilya default: #ffcf8f */ 
   text-decoration: underline;
 }
 
 a:hover {
-  color: #7a6958; /* Slightly darker color on hover for contrast ilya default#8c6826 */
+  color: #5e63f2; /* Slightly darker color on hover for contrast ilya default#8c6826 */
   text-decoration: underline;
 }
 
@@ -26,7 +26,7 @@ y {
 }
 
 vic {
-  color: #39FF14;
+  color: #81c6f7;
   font-weight: 950;
 }
 
@@ -43,8 +43,15 @@ x:hover {
 }
 
 z {
-  color: #ae7ff5;
+  /* color: #ae7ff5; */
+  color: #0259f5;
 }
+
+ilya {
+  /* color: #ae7ff5; */
+  color: #ff7f50;
+}
+
 
 bb {
   /* color: #fee0c1; */
@@ -52,12 +59,13 @@ bb {
 }
 
 z:hover {
-  color: #6e529a; /* Slightly darker color on hover for contrast */
+  /* color: #6e529a; Slightly darker color on hover for contrast */
+  color: #0000FF; /* Slightly darker color on hover for contrast */
   text-decoration: none;
 }
 
 b {
-  color: #ae7ff5; /* ilya default: ff7f50*/
+  color: #0259f5; /* ilya default: ff7f50*/
   text-decoration-color: #BFC0BF;
   font-size: 17px;
 }
