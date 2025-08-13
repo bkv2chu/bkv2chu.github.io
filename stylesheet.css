@@ -70,7 +70,7 @@ z:hover {
 .profile-photo {
   width: 20vw; /* Width is 20% of the viewport width */
   min-width: 150px; /* Minimum width of 150px */
-  max-width: 275px; /* Maximum width of 275px */
+  max-width: 310px; /* Maximum width of 275px */
   height: auto; /* Maintain aspect ratio */
 }
 
