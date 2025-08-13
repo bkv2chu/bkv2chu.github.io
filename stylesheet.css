@@ -30,6 +30,7 @@ vic {
   font-weight: 600;
   font-family:'Optima';
   font-variant: small-caps;
+  font-size: 15.5px;
   /* font-style: italic; */
 }
 
@@ -180,13 +181,13 @@ body {
   }
 
   heading {
-    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-family: monospace;
     font-size: 18px;
     font-weight: 550;
   }
 
   papertitle {
-    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-family: monospace;
     font-size: 16px;
     font-weight: 600;
     text-decoration: underline;
