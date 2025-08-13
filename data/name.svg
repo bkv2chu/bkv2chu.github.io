@@ -4,8 +4,13 @@
 	 viewBox="0 0 116 10" style="enable-background:new 0 0 116 10;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{font-family:'Ubuntu Mono', monospace;}
-	.st2{font-size:8px;}
+	.st1{font: small-caps 7pt/18pt Optima;}
+	.st2{text-transform: capitalize;}
 </style>
-<text transform="matrix(1 0 0 1 0 7.5)" class="st0 st1 st2">Victor Chu</text>
+<text transform="matrix(1 0 0 1 0 7.5)" class="st0 st1 st2">victor chu</text>
 </svg>
+
+
+<!-- font: small-caps 18pt/18pt Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+    text-transform: capitalize;
+    text-indent: 0pt -->

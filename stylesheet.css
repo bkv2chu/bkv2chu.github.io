@@ -27,7 +27,9 @@ y {
 
 vic {
   color: #81c6f7;
-  font-weight: 950;
+  font-weight: 600;
+  font-family:'Optima';
+  /* font-style: italic; */
 }
 
 x {
@@ -45,6 +47,7 @@ x:hover {
 z {
   /* color: #ae7ff5; */
   color: #0259f5;
+  text-decoration: underline;
 }
 
 ilya {
@@ -61,7 +64,7 @@ bb {
 z:hover {
   /* color: #6e529a; Slightly darker color on hover for contrast */
   color: #0000FF; /* Slightly darker color on hover for contrast */
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 b {
@@ -145,6 +148,7 @@ body {
   width: 75%;
   vertical-align: middle;
 }
+
 
 /* Adjustments for mobile devices */
 @media (pointer:none), (pointer:coarse) {
