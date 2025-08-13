@@ -46,7 +46,7 @@ x:hover {
 
 z {
   /* color: #ae7ff5; */
-  color: #0259f5;
+  color: #377cfa;
   text-decoration: underline;
 }
 
@@ -75,7 +75,8 @@ z:hover {
 }
 
 b {
-  color: #0259f5; /* ilya default: ff7f50*/
+  /* color: #0259f5; ilya default: ff7f50 */
+  color: #377cfa;
   text-decoration-color: #BFC0BF;
   font-size: 17px;
 }
