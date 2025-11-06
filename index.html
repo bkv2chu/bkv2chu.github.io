@@ -104,6 +104,51 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:-20px;">
             <tbody>
+              <!-- PAPER -->
+              <tr onmouseout="arh_stop()" onmouseover="arh_start()">
+                <td class="left-column">
+                  <a href="https://light.princeton.edu/publication/artifact-resilient-holography/">
+                    <div class="one">
+                      <div class="two" id='arh'>
+                        <img src='images/arh_after.gif' class="responsive-image" width="100%">
+                      </div>
+                      <img src='images/arh_before.jpg' class="responsive-image" width="100%">
+                    </div>
+                    <script type="text/javascript">
+                      function arh_start() {
+                        document.getElementById('arh').style.opacity = "1";
+                      }
+
+                      function arh_stop() {
+                        document.getElementById('arh').style.opacity = "0";
+                      }
+                      arh_stop()
+                    </script>
+                  </a>
+                </td>
+                <td class="right-column">
+                  <a href="https://light.princeton.edu/publication/artifact-resilient-holography/">
+                    <papertitle>
+                      <z>Artifact-Resilient Real-Time Holography</z>
+                    </papertitle>
+                  </a>
+                  <br>
+                  <vic>Victor Chu</vic>, 
+                  <a href="https://www.cs.unc.edu/~cpk/">Oscar Pueyo-Ciutad</a>,
+                  <a href="https://www.cs.unc.edu/~cpk/">Ethan Tseng</a>,
+                  <a href="https://www.cs.unc.edu/~cpk/">Ethan Tseng</a>,
+                  <a href="https://www.cs.unc.edu/~cpk/">Ethan Tseng</a>,
+                  <a href="https://www.cs.unc.edu/~cpk/">Ethan Tseng</a>,
+                  <a href="https://www.cs.unc.edu/~cpk/">Ethan Tseng</a>,
+                  <a href="https://www.cs.unc.edu/~cpk/">Ethan Tseng</a>,
+                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                  <br>
+                  <em>SIGGRAPH Asia</em>, 2025
+                  <p class="desktop-only">
+                    Introduces the Rayleigh Distance, a metric quantifying phase randomness, to generate artifact-resilient holograms in optimization-based methods, such as training real-time, artifact-resilient phase retrieval networks.
+                  </p>
+                </td>
+              </tr> 
                <!-- PAPER -->
                <tr onmouseout="singleshot_stop()" onmouseover="singleshot_start()">
                 <td class="left-column">
@@ -154,7 +199,7 @@
               style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
               <tbody>
                 <tr>
-                    <hr>
+                    <!-- <hr> -->
 
                   <td style="padding:1.5%;width:68%;vertical-align:middle">
                       <heading>Misc:</heading>
