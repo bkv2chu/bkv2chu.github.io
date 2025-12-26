@@ -34,8 +34,7 @@
                       <a href="https://davidlindell.com/">David Lindell</a>, 
                       <a href="https://www.cs.toronto.edu/~kyros/">Kyros Kutulakos</a>, and
                        <a href="https://www.aviadlevis.info/">Aviad Levis</a>. 
-                        I am broadly interested in computer vision and <a href="https://arcturus3.github.io/lightsaber-dojo/">graphics</a>, with an emphasis on computational imaging and displays. 
-                  I’m particularly excited about creating perception systems that offer a richer, more precise understanding of the world. 
+                        I am interested in computer vision, <a href="https://arcturus3.github.io/lightsaber-dojo/">graphics</a>, and machine learning. 
                       <p>Previously, I
                     received my BA and MSE in CS from <a
                       href="https://www.cs.princeton.edu/" title="POO">Princeton University</a> where I was part of the <a href="https://light.princeton.edu/">Princeton
@@ -45,10 +44,12 @@
                   <p><b>Contact:</b> <tt>  vhchu[at]cs[dot]toronto[dot]edu  </tt>
                   </p>
 
-                  <p>
-                    <b>Professional:</b> &nbsp
-                    <a href="cv.html">CV</a> &nbsp/&nbsp
-                    <a href="https://github.com/bkv2chu">GitHub</a> &nbsp/&nbsp
+                  <div style="margin-top: 40px;"></div>
+                  <p style="text-align:center;">
+                    <a href="cv.html">CV</a> &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=1qyqBM0AAAAJ">Scholar</a> &nbsp;/&nbsp;
+                    <a href="https://x.com/bkv2chu">Twitter</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/bkv2chu">GitHub</a> &nbsp;/&nbsp;
                     <a href="https://www.linkedin.com/in/victor-chu-76405b1b5/">LinkedIn</a>
                   </p>
                 </td>
@@ -96,7 +97,7 @@
               <hr>
               <tr>
                 <td style="padding:30px;width:100%;vertical-align:top;">
-                  <heading>Research:</heading>
+                  <heading>Publications:</heading>
                 </td>
               </tr>
             </tbody>
@@ -104,6 +105,51 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:-20px;">
             <tbody>
+              <tr onmouseout="nexels_stop()" onmouseover="nexels_start()">
+                <td class="left-column">
+                  <a href="https://dataspace.princeton.edu/handle/88435/dsp01gb19f910t">
+                    <div class="one">
+                      <div class="two" id='nexels'>
+                        <video class="responsive-image" width="100%" autoplay loop muted playsinline>
+                          <source src="images/nexels.mov" type="video/mp4">
+                        </video>
+                      </div>
+                      <img src='images/nexels.png' class="responsive-image" width="100%">
+                    </div>
+                    <script type="text/javascript">
+                      function nexels_start() {
+                        document.getElementById('nexels').style.opacity = "1";
+                      }
+
+                      function nexels_stop() {
+                        document.getElementById('nexels').style.opacity = "0";
+                      }
+                      nexels_stop()
+                    </script>
+                  </a>
+                </td>
+                <td class="right-column">
+                  <a href="https://www.lessvrong.com/cs/nexels/"">
+                    <papertitle>
+                      <z>Nexels: Neurally-Textured Surfels for Real-Time Novel View Synthesis with Sparse Geometries</z>
+                    </papertitle>
+                  </a>
+                  <br>
+                  <a href="https://lessvrong.com/" target="_blank">Victor Rong*</a>,
+                  <a href="https://www.janheld.com/" target="_blank">Jan Held*</a>,
+                  <vic>Victor Chu</vic>, 
+                  <a href="http://drebain.com/" target="_blank">Daniel Rebain</a>,
+                  <a href="https://www.telecom.ulg.ac.be/people/MarcVanDroogenbroeck.html" target="_blank">Marc Van Droogenbroeck</a>,
+                  <a href="https://www.cs.toronto.edu/~kyros/" target="_blank">Kiriakos N. Kutulakos</a>,
+                  <a href="https://theialab.ca/" target="_blank">Andrea Tagliasacchi</a>,
+                  <a href="https://davidlindell.com/" target="_blank">David Lindell</a>
+                  <br>
+                  <em>arXiv preprint arXiv:2512.13796 2025</em>
+                  <p class="desktop-only">
+                    Decouples geometry and appearance through a hybrid representation of surfels and a global neural field to deliver high-quality 3D rendering with up to 31x fewer primitives and double the speed of Gaussian splatting.
+                  </p>
+                </td>
+              </tr> 
               <!-- PAPER -->
               <tr onmouseout="arh_stop()" onmouseover="arh_start()" style="background: rgba(255, 255, 255, 0.05); border-radius: 12px;">
                 <!-- <tr onmouseout="arh_stop()" onmouseover="arh_start()" style="background: linear-gradient(90deg, rgba(255,251,230,0.65) 0%, rgba(255,247,194,0.65) 100%); box-shadow: 0 0 16px rgba(255, 225, 90, 0.16); border-radius: 12px;"> -->
@@ -135,15 +181,15 @@
                   </a>
                   <br>
                   <vic>Victor Chu</vic>, 
-                  <a href="https://opueyociutad.github.io/">Oscar Pueyo-Ciutad</a>,
-                  <a href="https://ethan-tseng.github.io/">Ethan Tseng</a>,
-                  <a href="https://florianschiffers.com/">Florian Schiffers</a>,
-                  <a href="https://grace-kuo.com/">Grace Kuo</a>,
-                  <a href="https://www.nathanmatsuda.com/">Nathan Matsuda</a>,
-                  <a href="https://redo-sanchez.github.io/">Albert Redo-Sanchez</a>,
-                  <a href="https://www.linkedin.com/in/dlanman/">Douglas Lanman</a>,
-                  <a href="https://compphotolab.northwestern.edu/people/oliver-ollie-cossairt/">Oliver Cossairt</a>,
-                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                  <a href="https://opueyociutad.github.io/" target="_blank">Oscar Pueyo-Ciutad</a>,
+                  <a href="https://ethan-tseng.github.io/" target="_blank">Ethan Tseng</a>,
+                  <a href="https://florianschiffers.com/" target="_blank">Florian Schiffers</a>,
+                  <a href="https://grace-kuo.com/" target="_blank">Grace Kuo</a>,
+                  <a href="https://www.nathanmatsuda.com/" target="_blank">Nathan Matsuda</a>,
+                  <a href="https://redo-sanchez.github.io/" target="_blank">Albert Redo-Sanchez</a>,
+                  <a href="https://www.linkedin.com/in/dlanman/" target="_blank">Douglas Lanman</a>,
+                  <a href="https://compphotolab.northwestern.edu/people/oliver-ollie-cossairt/" target="_blank">Oliver Cossairt</a>,
+                  <a href="https://www.cs.princeton.edu/~fheide/" target="_blank">Felix Heide</a>
                   <br>
                   <em>ACM Transactions on Graphics (Proc. SIGGRAPH Asia 2025)</em>
                   <p class="desktop-only">
@@ -201,14 +247,14 @@
               style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
               <tbody>
                 <tr>
-                    <!-- <hr> -->
+                    <hr>
 
                   <td style="padding:1.5%;width:68%;vertical-align:middle">
                       <heading>Misc:</heading>
                       <p>
                         I play ping pong!<br>
                         I play <a href="https://www.youtube.com/watch?feature=shared&t=3410&v=b2MyCJyoJS4">music</a> with my friends!<br>
-                        I play too much pickleball!<br>
+                        I play pickleball!<br>
                         I play Fortnite!<br>
                       </p>
                   </td>

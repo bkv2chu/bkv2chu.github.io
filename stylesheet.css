@@ -1,6 +1,6 @@
 a, a:link, a:visited {
   color: #bbbdfa; /* Brighter color for links ilya default: #ffcf8f */ 
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
@@ -91,7 +91,7 @@ strong {
 
 heading {
   font-family: monospace;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 500;
   /* color: #377cfa; */
 }
